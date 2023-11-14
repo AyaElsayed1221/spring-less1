@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Any code will writen here will not work except if we write the DTD or XSD over here-->
+<!--        XML Schema Definition or XSD is a recommendation by the World Wide Web Consortium (W3C)-->
+<!--        to describe and validate the structure and content of an XML document.-->
+<!--        It is primarily used to define the elements, attributes and data types the document can contain.-->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation=
+               "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
+
+<!--The bean tag is somebody else write it and i just use it, i get it from the XSD file which it is located in the schema location-->
+<bean id = "sim" class= "org.example.Vodaphone"></bean>
+
+</beans>
